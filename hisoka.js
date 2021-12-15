@@ -76,7 +76,7 @@ let asep = ""
 
         // Public & Self
         if (!hisoka.public) {
-            if (!m.key.fromMe) return
+            if (m.key.fromMe) return
         }
 
         // Push Message To Console
